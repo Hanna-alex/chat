@@ -1,0 +1,25 @@
+.list {
+	width: 100%;
+	min-height: 0;
+	flex: 1;
+	background: var(--color-white);
+	border-radius: var(--border-radius-s);
+	overflow-y: auto;
+	padding: 16px;
+
+	& .message {
+		width: fit-content;
+		max-width: 70%;
+		border: 1px solid var(--color-brand);
+		margin-bottom: 8px;
+		padding: 4px 16px;
+		border-radius: var(--border-radius-s);
+	}
+
+	& .outgoing {
+		margin-left: auto;
+	}
+	& .incoming {
+		margin-right: auto;
+	}
+}

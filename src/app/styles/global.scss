@@ -1,0 +1,20 @@
+@use './_variables' as *;
+@use './_reset';
+
+:root {
+	--color-brand: #{$color-brand};
+	--color-text: #{$color-text};
+	--color-text-secondary: #{$color-text-secondary};
+	--color-action: #{$color-action};
+	--color-error: #{$color-error};
+	--color-white: #{$color-white};
+
+	--border-radius-s: #{$border-radius-s};
+}
+body {
+	background: linear-gradient(115deg, #9fe8ab, #e4f8e7);
+	color: var(--color-text);
+	font-family: Inter, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}

@@ -1,0 +1,24 @@
+.chatPage {
+	max-width: 768px;
+	height: 100vh;
+	border-radius: var(--border-radius-s);
+
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	margin: 0 auto;
+}
+
+.header {
+	flex-shrink: 0;
+	background: var(--color-white);
+	border-radius: var(--border-radius-s);
+	padding: 16px 24px;
+	margin-top: 8px;
+}
+
+.form {
+	display: grid;
+	gap: 16px;
+}

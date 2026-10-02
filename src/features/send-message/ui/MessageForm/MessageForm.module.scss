@@ -1,0 +1,13 @@
+.messageForm {
+	display: flex;
+	gap: 16px;
+	flex-shrink: 0;
+	border-radius: var(--border-radius-s);
+	background: var(--color-white);
+	padding: 16px 24px;
+	margin-bottom: 8px;
+
+	& > div {
+		flex: 1;
+	}
+}
