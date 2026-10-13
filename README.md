@@ -8,12 +8,13 @@
 
 ## 🛠 Технологический стек
 
-- ![React](https://shields.io) — UI-библиотека
-- ![TypeScript](https://shields.io) — Строгая типизация
-- ![Vite](https://shields.io) — Инструмент сборки
-- ![Sass](https://shields.io) — Изолированные стили компонентов
-- ![React Router](https://shields.io) — Навигация в приложении
-- **Feature-Sliced Design (FSD)** — Архитектурная методология
+- ![React 19](https://shields.io) — разработкаа пользовательского интерфейса
+- ![TypeScript 6](https://shields.io) — типизация приложениея
+- ![Vite 8](https://shields.io) — запуск и сборка проекта
+- ![Sass](https://shields.io) — стилизация компонентов
+- ![React Router DOM 7](https://shields.io) — маршрутизация приложения
+- **Feature-Sliced Design (FSD)** — архитектурная методология
+- **ESLint** 
 
 ---
 
